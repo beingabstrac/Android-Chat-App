@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="3"
+        android:background="@null"
+        android:hint="Enter message"
+        android:lines="1"
+        android:paddingLeft="10dp" />
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:padding="4dp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="SEND"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp" />
+
+</LinearLayout>
